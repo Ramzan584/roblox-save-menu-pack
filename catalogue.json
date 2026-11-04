@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Config.lua",
+    "path": "ReplicatedStorage/SaveMenuPack/Config.lua",
+    "class": "ModuleScript"
+  },
+  {
+    "name": "UIFactory.lua",
+    "path": "ReplicatedStorage/SaveMenuPack/UIFactory.lua",
+    "class": "ModuleScript"
+  },
+  {
+    "name": "Autosave.server.lua",
+    "path": "ServerScriptService/SaveMenuPack/Autosave.server.lua",
+    "class": "Script"
+  },
+  {
+    "name": "Bootstrap.server.lua",
+    "path": "ServerScriptService/SaveMenuPack/Bootstrap.server.lua",
+    "class": "Script"
+  },
+  {
+    "name": "Checkpoints.server.lua",
+    "path": "ServerScriptService/SaveMenuPack/Checkpoints.server.lua",
+    "class": "Script"
+  },
+  {
+    "name": "Coins.server.lua",
+    "path": "ServerScriptService/SaveMenuPack/Coins.server.lua",
+    "class": "Script"
+  },
+  {
+    "name": "ProfileService.lua",
+    "path": "ServerScriptService/SaveMenuPack/ProfileService.lua",
+    "class": "ModuleScript"
+  },
+  {
+    "name": "RemoteBridge.server.lua",
+    "path": "ServerScriptService/SaveMenuPack/RemoteBridge.server.lua",
+    "class": "Script"
+  },
+  {
+    "name": "SaveRepository.lua",
+    "path": "ServerScriptService/SaveMenuPack/SaveRepository.lua",
+    "class": "ModuleScript"
+  },
+  {
+    "name": "Schema.lua",
+    "path": "ServerScriptService/SaveMenuPack/Schema.lua",
+    "class": "ModuleScript"
+  },
+  {
+    "name": "ApplySettings.client.lua",
+    "path": "StarterPlayerScripts/ApplySettings.client.lua",
+    "class": "LocalScript"
+  },
+  {
+    "name": "MainMenu.client.lua",
+    "path": "StarterPlayerScripts/MainMenu.client.lua",
+    "class": "LocalScript"
+  },
+  {
+    "name": "MenuCamera.client.lua",
+    "path": "StarterPlayerScripts/MenuCamera.client.lua",
+    "class": "LocalScript"
+  },
+  {
+    "name": "ProgressHUD.client.lua",
+    "path": "StarterPlayerScripts/ProgressHUD.client.lua",
+    "class": "LocalScript"
+  }
+]

@@ -1,0 +1,1098 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <External>null</External>
+  <External>nil</External>
+  <Item class="Workspace" referent="RBX1">
+    <Properties>
+      <string name="Name">Workspace</string>
+      <float name="Gravity">196.2</float>
+      <bool name="StreamingEnabled">false</bool>
+    </Properties>
+    <Item class="Folder" referent="RBX2">
+      <Properties>
+        <string name="Name">SaveMenuDemo</string>
+      </Properties>
+      <Item class="Folder" referent="RBX3">
+        <Properties>
+          <string name="Name">Checkpoints</string>
+        </Properties>
+        <Item class="SpawnLocation" referent="RBX4">
+          <Properties>
+            <string name="Name">0</string>
+            <Vector3 name="size">
+              <X>12</X>
+              <Y>1</Y>
+              <Z>12</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>0</X>
+              <Y>1</Y>
+              <Z>0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+            <Color3uint8 name="Color3uint8">6148003</Color3uint8>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <bool name="CanTouch">true</bool>
+            <bool name="Neutral">true</bool>
+            <int name="Duration">0</int>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX5">
+          <Properties>
+            <string name="Name">1</string>
+            <Vector3 name="size">
+              <X>12</X>
+              <Y>1</Y>
+              <Z>12</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>20</X>
+              <Y>1</Y>
+              <Z>0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+            <Color3uint8 name="Color3uint8">15911742</Color3uint8>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <bool name="CanTouch">true</bool>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX6">
+          <Properties>
+            <string name="Name">2</string>
+            <Vector3 name="size">
+              <X>12</X>
+              <Y>1</Y>
+              <Z>12</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>40</X>
+              <Y>1</Y>
+              <Z>0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+            <Color3uint8 name="Color3uint8">15911742</Color3uint8>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <bool name="CanTouch">true</bool>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX7">
+          <Properties>
+            <string name="Name">3</string>
+            <Vector3 name="size">
+              <X>12</X>
+              <Y>1</Y>
+              <Z>12</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>60</X>
+              <Y>1</Y>
+              <Z>0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+            <Color3uint8 name="Color3uint8">15911742</Color3uint8>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <bool name="CanTouch">true</bool>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="RBX8">
+        <Properties>
+          <string name="Name">Ground</string>
+          <Vector3 name="size">
+            <X>100</X>
+            <Y>1</Y>
+            <Z>55</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>30</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Color3uint8 name="Color3uint8">2041137</Color3uint8>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">true</bool>
+        </Properties>
+      </Item>
+      <Item class="Folder" referent="RBX9">
+        <Properties>
+          <string name="Name">Coins</string>
+        </Properties>
+        <Item class="Part" referent="RBX10">
+          <Properties>
+            <string name="Name">Coin1</string>
+            <Vector3 name="size">
+              <X>2</X>
+              <Y>2</Y>
+              <Z>2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>10</X>
+              <Y>3</Y>
+              <Z>0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+            <Color3uint8 name="Color3uint8">16766279</Color3uint8>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">true</bool>
+            <token name="Shape">0</token>
+            <token name="Material">288</token>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX11">
+          <Properties>
+            <string name="Name">Coin2</string>
+            <Vector3 name="size">
+              <X>2</X>
+              <Y>2</Y>
+              <Z>2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>30</X>
+              <Y>3</Y>
+              <Z>0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+            <Color3uint8 name="Color3uint8">16766279</Color3uint8>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">true</bool>
+            <token name="Shape">0</token>
+            <token name="Material">288</token>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX12">
+          <Properties>
+            <string name="Name">Coin3</string>
+            <Vector3 name="size">
+              <X>2</X>
+              <Y>2</Y>
+              <Z>2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>50</X>
+              <Y>3</Y>
+              <Z>0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+            <Color3uint8 name="Color3uint8">16766279</Color3uint8>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">true</bool>
+            <token name="Shape">0</token>
+            <token name="Material">288</token>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="RBX13">
+        <Properties>
+          <string name="Name">MenuCamera</string>
+          <Vector3 name="size">
+            <X>1</X>
+            <Y>1</Y>
+            <Z>1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>30</X>
+            <Y>30</Y>
+            <Z>42</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8525245220595057</R11>
+            <R12>0.5226872289306592</R12>
+            <R20>0</R20>
+            <R21>-0.5226872289306592</R21>
+            <R22>0.8525245220595057</R22>
+          </CoordinateFrame>
+          <Color3uint8 name="Color3uint8">16777215</Color3uint8>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">true</bool>
+          <float name="Transparency">1</float>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="ReplicatedStorage" referent="RBX14">
+    <Properties>
+      <string name="Name">ReplicatedStorage</string>
+    </Properties>
+    <Item class="Folder" referent="RBX15">
+      <Properties>
+        <string name="Name">SaveMenuPack</string>
+      </Properties>
+      <Item class="ModuleScript" referent="RBX16">
+        <Properties>
+          <string name="Name">Config</string>
+          <ProtectedString name="Source">-- Save + Menu Pack | raw template / сырой шаблон | CC0-1.0 | timura032
+return {
+    TITLE = "MY ROBLOX GAME", -- Change freely / меняй под свою игру.
+    STORE_NAME = "SaveMenuPack_Test_v1", -- Use a separate name for each data schema/project.
+    STUDIO_MEMORY_PREVIEW = true, -- Studio demo only; does NOT persist after stopping.
+    AUTOSAVE_SECONDS = 45,
+    LEASE_SECONDS = 180,
+    RETRY_COUNT = 3,
+    MANUAL_SAVE_COOLDOWN = 20,
+    MAX_CHECKPOINT = 100000,
+    MAX_COINS = 1000000000,
+    FEEDBACK_URL = "https://github.com/Ramzan584/Ramzan584/issues/1",
+    TELEGRAM = "@timura032",
+}
+</ProtectedString>
+        </Properties>
+      </Item>
+      <Item class="ModuleScript" referent="RBX17">
+        <Properties>
+          <string name="Name">UIFactory</string>
+          <ProtectedString name="Source">-- Shared ModuleScript, used by LocalScripts. CC0-1.0 | timura032
+local UI = {}
+UI.Accent = Color3.fromRGB(255, 211, 74)
+function UI.new(class, parent, properties)
+    local object = Instance.new(class)
+    for name, value in pairs(properties or {}) do object[name] = value end
+    object.Parent = parent
+    return object
+end
+function UI.round(object)
+    UI.new("UICorner", object, {CornerRadius = UDim.new(0, 10)})
+end
+function UI.label(parent, text, height)
+    local label = UI.new("TextLabel", parent, {
+        Size = UDim2.new(1, 0, 0, height or 40), BackgroundTransparency = 1,
+        Text = text, TextColor3 = Color3.fromRGB(231, 235, 243), TextSize = 17,
+        Font = Enum.Font.Gotham, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left,
+    })
+    return label
+end
+function UI.button(parent, text, callback)
+    local button = UI.new("TextButton", parent, {
+        Size = UDim2.new(1, 0, 0, 46), BackgroundColor3 = Color3.fromRGB(44, 49, 62),
+        Text = text, TextColor3 = Color3.fromRGB(250, 250, 252), TextSize = 17,
+        Font = Enum.Font.GothamMedium, AutoButtonColor = true,
+    })
+    UI.round(button)
+    button.Activated:Connect(callback)
+    return button
+end
+function UI.language(player)
+    return string.sub(string.lower(player.LocaleId or "en-us"), 1, 2) == "ru" and "RU" or "EN"
+end
+function UI.text(language, ru, en) return language == "RU" and ru or en end
+return UI
+</ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="ServerScriptService" referent="RBX18">
+    <Properties>
+      <string name="Name">ServerScriptService</string>
+    </Properties>
+    <Item class="Folder" referent="RBX19">
+      <Properties>
+        <string name="Name">SaveMenuPack</string>
+      </Properties>
+      <Item class="Script" referent="RBX20">
+        <Properties>
+          <string name="Name">Autosave</string>
+          <ProtectedString name="Source">-- One autosave worker per player, staggered to avoid synchronized requests. CC0-1.0
+local Players = game:GetService("Players")
+local Config = require(game:GetService("ReplicatedStorage"):WaitForChild("SaveMenuPack").Config)
+local Service = require(script.Parent.ProfileService)
+local workers = {}
+local function start(player)
+    if workers[player] then return end
+    workers[player] = true
+    task.spawn(function()
+        task.wait(5 + player.UserId % 20)
+        while player.Parent == Players and not Service.Closing do
+            Service.Save(player, false, os.clock() + 15) -- Also renews session lease while in menu.
+            task.wait(Config.AUTOSAVE_SECONDS)
+        end
+        workers[player] = nil
+    end)
+end
+Players.PlayerAdded:Connect(start)
+for _, player in ipairs(Players:GetPlayers()) do start(player) end
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="Script" referent="RBX21">
+        <Properties>
+          <string name="Name">Bootstrap</string>
+          <ProtectedString name="Source">-- Script -&gt; ServerScriptService.SaveMenuPack. CC0-1.0 | timura032
+local Players = game:GetService("Players")
+local Service = require(script.Parent.ProfileService)
+local function added(player)
+    player:SetAttribute("SaveMenuStarted", false)
+    task.spawn(Service.Load, player)
+end
+Players.PlayerAdded:Connect(added)
+Players.PlayerRemoving:Connect(Service.Remove)
+for _, player in ipairs(Players:GetPlayers()) do added(player) end
+game:BindToClose(Service.Shutdown)
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="Script" referent="RBX22">
+        <Properties>
+          <string name="Name">Checkpoints</string>
+          <ProtectedString name="Source">-- Workspace.SaveMenuDemo.Checkpoints: BaseParts named 0,1,2,..., each with CanTouch=true.
+-- Server validates stage order and proximity. CC0-1.0 | timura032
+local Players = game:GetService("Players")
+local Service = require(script.Parent.ProfileService)
+local demo = workspace:WaitForChild("SaveMenuDemo", 15)
+assert(demo, "Install demo objects or create Workspace.SaveMenuDemo")
+local checkpoints = demo:WaitForChild("Checkpoints", 15)
+assert(checkpoints, "Create SaveMenuDemo.Checkpoints with numbered Parts")
+local roots, installedPlayers = {}, {}
+local function moveToCheckpoint(player, root)
+    local number = player:GetAttribute("SaveMenuCheckpoint") or 0
+    local pad = checkpoints:FindFirstChild(tostring(number)) or checkpoints:FindFirstChild("0")
+    if pad and pad:IsA("BasePart") then
+        player.Character:PivotTo(pad.CFrame + Vector3.new(0, pad.Size.Y / 2 + 4, 0))
+        root.AssemblyLinearVelocity = Vector3.zero; root.AssemblyAngularVelocity = Vector3.zero
+    end
+end
+local function setup(player)
+    if installedPlayers[player] then return end
+    installedPlayers[player] = true
+    local function characterAdded(character)
+        local root = character:WaitForChild("HumanoidRootPart", 10)
+        if not root or player.Character ~= character then return end
+        roots[player] = {root = root, anchored = root.Anchored}
+        if Service.IsPlaying(player) then moveToCheckpoint(player, root)
+        else root.Anchored = true end
+    end
+    player.CharacterAdded:Connect(characterAdded)
+    player:GetAttributeChangedSignal("SaveMenuStarted"):Connect(function()
+        local entry = roots[player]
+        if not entry or not entry.root.Parent then return end
+        if Service.IsPlaying(player) then
+            moveToCheckpoint(player, entry.root)
+            entry.root.Anchored = entry.anchored
+        else entry.root.Anchored = true end
+    end)
+    if player.Character then task.spawn(characterAdded, player.Character) end
+end
+local connected = setmetatable({}, {__mode = "k"})
+local function install(pad)
+    if connected[pad] or not pad:IsA("BasePart") then return end
+    local number = tonumber(pad.Name)
+    if not number or number &lt; 1 or number % 1 ~= 0 then return end
+    connected[pad] = true
+    pad.Touched:Connect(function(hit)
+        local character = hit:FindFirstAncestorOfClass("Model")
+        local player = character and Players:GetPlayerFromCharacter(character)
+        local root = character and character:FindFirstChild("HumanoidRootPart")
+        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+        if not player or not root or not humanoid or humanoid.Health &lt;= 0 then return end
+        if (root.Position - pad.Position).Magnitude &gt; pad.Size.Magnitude / 2 + 8 then return end
+        Service.AdvanceCheckpoint(player, number)
+    end)
+end
+for _, pad in ipairs(checkpoints:GetChildren()) do install(pad) end
+checkpoints.ChildAdded:Connect(install)
+Players.PlayerAdded:Connect(setup)
+Players.PlayerRemoving:Connect(function(player) roots[player] = nil; installedPlayers[player] = nil end)
+for _, player in ipairs(Players:GetPlayers()) do setup(player) end
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="Script" referent="RBX23">
+        <Properties>
+          <string name="Name">Coins</string>
+          <ProtectedString name="Source">-- Optional server example. Workspace.SaveMenuDemo.Coins holds BaseParts. CC0-1.0
+local Players = game:GetService("Players")
+local Service = require(script.Parent.ProfileService)
+local demo = workspace:WaitForChild("SaveMenuDemo", 15)
+local coins = demo and demo:WaitForChild("Coins", 15)
+assert(coins, "Create SaveMenuDemo.Coins or remove this optional example Script")
+local connected = setmetatable({}, {__mode = "k"})
+local function install(coin)
+    if connected[coin] or not coin:IsA("BasePart") then return end
+    connected[coin] = true
+    local busy, transparency = false, coin.Transparency
+    coin.CanCollide = false
+    coin.Touched:Connect(function(hit)
+        if busy then return end
+        local character = hit:FindFirstAncestorOfClass("Model")
+        local player = character and Players:GetPlayerFromCharacter(character)
+        local root = character and character:FindFirstChild("HumanoidRootPart")
+        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+        if not player or not root or not humanoid or humanoid.Health &lt;= 0 then return end
+        if (root.Position - coin.Position).Magnitude &gt; coin.Size.Magnitude / 2 + 8 then return end
+        if not Service.AddCoins(player, 1) then return end
+        busy = true; coin.Transparency = 1
+        task.wait(10)
+        if coin.Parent then coin.Transparency = transparency end
+        busy = false
+    end)
+end
+for _, coin in ipairs(coins:GetChildren()) do install(coin) end
+coins.ChildAdded:Connect(install)
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="ModuleScript" referent="RBX24">
+        <Properties>
+          <string name="Name">ProfileService</string>
+          <ProtectedString name="Source">-- Server ModuleScript. Ready state gates gameplay; failed loads never create playable defaults.
+-- CC0-1.0 | timura032
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local DataStoreService = game:GetService("DataStoreService")
+local HttpService = game:GetService("HttpService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Config = require(ReplicatedStorage:WaitForChild("SaveMenuPack"):WaitForChild("Config"))
+assert(Config.AUTOSAVE_SECONDS &gt;= 10 and Config.LEASE_SECONDS &gt;= Config.AUTOSAVE_SECONDS * 3, "Keep lease &gt;= 3x autosave interval")
+local Schema = require(script.Parent.Schema)
+local Repository = require(script.Parent.SaveRepository)
+local memoryMode = RunService:IsStudio() and Config.STUDIO_MEMORY_PREVIEW
+local store
+if memoryMode then
+    local records = {}
+    store = {UpdateAsync = function(_, key, callback)
+        local result = callback(records[key])
+        if result ~= nil then records[key] = result end
+        return result
+    end}
+else store = DataStoreService:GetDataStore(Config.STORE_NAME) end
+local repo = Repository.new(store, Config, os.time, task.wait, function() return HttpService:GenerateGUID(false) end)
+local Service = {Closing = false, MemoryMode = memoryMode}
+local profiles = {}
+local function status(player, profile, state)
+    profile.status = state
+    if player.Parent == Players then player:SetAttribute("SaveMenuStatus", state) end
+end
+local function dataNow(profile)
+    local data = Schema.copy(profile.data)
+    if profile.startedAt then data.PlaySeconds = profile.baseSeconds + math.floor(os.clock() - profile.startedAt) end
+    return data
+end
+function Service.Snapshot(player)
+    local p = profiles[player]
+    local out = {Status = p and p.status or "LOADING", MemoryMode = memoryMode, Started = p and p.started or false}
+    if p and p.ready then
+        local data = dataNow(p)
+        out.Data = data; out.HasProgress = data.Checkpoint &gt; 0 or data.PlaySeconds &gt; 0 or data.Coins &gt; 0
+        out.LastSavedAt = p.lastSavedAt; out.Dirty = p.dirty
+    end
+    return out
+end
+function Service.Load(player)
+    if Service.Closing or player.Parent ~= Players then return end
+    local previous = profiles[player]
+    if previous and (previous.loading or previous.ready or previous.closing) then return end
+    local p = {loading = true, ready = false, started = false, dirty = false, version = 0}
+    profiles[player] = p
+    status(player, p, "LOADING")
+    p.token = previous and previous.token or HttpService:GenerateGUID(false)
+    p.key = "Player_" .. player.UserId
+    local record, reason = repo:acquire(p.key, p.token, os.clock() + 18)
+    if not record then
+        p.loading = false
+        if p.closing or player.Parent ~= Players then profiles[player] = nil
+        else status(player, p, reason or "LOAD_FAILED") end
+        return
+    end
+    p.data = Schema.copy(record.Data); p.baseSeconds = p.data.PlaySeconds
+    if p.closing or Service.Closing or player.Parent ~= Players then
+        repo:save(p.key, p.token, p.data, true, os.clock() + 8)
+        p.loading = false
+        profiles[player] = nil
+        return
+    end
+    p.loading = false
+    p.ready = true
+    player:SetAttribute("SaveMenuCheckpoint", p.data.Checkpoint)
+    player:SetAttribute("SaveMenuCoins", p.data.Coins)
+    status(player, p, "READY")
+end
+function Service.Start(player)
+    local p = profiles[player]
+    if not p or not p.ready or p.closing or Service.Closing then return false end
+    if p.started then return true end
+    p.started = true; p.startedAt = os.clock()
+    player:SetAttribute("SaveMenuStarted", true)
+    status(player, p, "PLAYING")
+    return true
+end
+function Service.IsPlaying(player)
+    local p = profiles[player]
+    return p and p.ready and p.started and not p.closing and not Service.Closing
+end
+function Service.AdvanceCheckpoint(player, number)
+    local p = profiles[player]
+    if not Service.IsPlaying(player) or type(number) ~= "number" or number ~= p.data.Checkpoint + 1 or number &gt; Config.MAX_CHECKPOINT then return false end
+    p.data.Checkpoint = number; p.version = p.version + 1; p.dirty = true
+    player:SetAttribute("SaveMenuCheckpoint", number)
+    return true
+end
+function Service.AddCoins(player, amount)
+    local p = profiles[player]
+    if not Service.IsPlaying(player) or type(amount) ~= "number" or amount ~= amount or amount &lt;= 0 or amount % 1 ~= 0 then return false end
+    p.data.Coins = math.min(Config.MAX_COINS, p.data.Coins + amount)
+    p.version = p.version + 1; p.dirty = true
+    player:SetAttribute("SaveMenuCoins", p.data.Coins)
+    return true
+end
+function Service.SetSetting(player, name, value)
+    local p = profiles[player]
+    if not p or not p.ready or p.closing or Service.Closing then return false end
+    if name == "MusicVolume" and type(value) == "number" and value == value and value &gt;= 0 and value &lt;= 1 then
+        p.data.Settings.MusicVolume = value
+    elseif name == "ReducedMotion" and type(value) == "boolean" then p.data.Settings.ReducedMotion = value
+    else return false end
+    p.version = p.version + 1; p.dirty = true
+    return true
+end
+function Service.Save(player, release, deadline)
+    local p = profiles[player]
+    if not p or not p.ready then return false end
+    if release then p.closing = true; status(player, p, "SAVING") end
+    while p.busy do
+        if deadline and os.clock() &gt;= deadline then return false end
+        task.wait(0.05)
+    end
+    if profiles[player] ~= p or not p.ready then return false end
+    if p.closing and not release then return false end
+    p.busy = true
+    local version, snapshot = p.version, dataNow(p)
+    local record, reason = repo:save(p.key, p.token, snapshot, release, deadline)
+    p.busy = false
+    if record then
+        p.lastSavedAt = os.time()
+        if version == p.version then p.dirty = false end
+        if release then p.ready = false; profiles[player] = nil
+        else status(player, p, p.started and "PLAYING" or "READY") end
+        return true
+    end
+    if reason == "SESSION_LOST" or reason == "UNSUPPORTED_DATA" or reason == "INVALID_SESSION" then
+        p.ready = false; p.started = false
+        player:SetAttribute("SaveMenuStarted", false)
+        status(player, p, "SESSION_LOST")
+        if player.Parent == Players then player:Kick("Save session lost. Please rejoin / Сессия сохранения потеряна. Перезайди.") end
+    else status(player, p, "SAVE_FAILED") end
+    warn("SaveMenuPack save failed: " .. tostring(reason))
+    return false
+end
+function Service.Remove(player)
+    local p = profiles[player]
+    if not p then return end
+    p.closing = true
+    if p.ready then Service.Save(player, true, os.clock() + 20)
+    elseif not p.loading then profiles[player] = nil end
+end
+function Service.Shutdown()
+    Service.Closing = true
+    local deadline = os.clock() + 25
+    local pending = 0
+    for player, p in pairs(profiles) do
+        p.closing = true
+        if p.ready then
+            pending = pending + 1
+            task.spawn(function() Service.Save(player, true, deadline); pending = pending - 1 end)
+        elseif p.loading then
+            pending = pending + 1
+            task.spawn(function()
+                while p.loading and os.clock() &lt; deadline do task.wait(0.05) end
+                pending = pending - 1
+            end)
+        end
+    end
+    while pending &gt; 0 and os.clock() &lt; deadline do task.wait(0.05) end
+end
+return Service
+</ProtectedString>
+        </Properties>
+      </Item>
+      <Item class="Script" referent="RBX25">
+        <Properties>
+          <string name="Name">RemoteBridge</string>
+          <ProtectedString name="Source">-- Remote API: clients cannot set checkpoint, coins, playtime, datastore key or session token.
+-- CC0-1.0 | timura032
+local Players = game:GetService("Players")
+local shared = game:GetService("ReplicatedStorage"):WaitForChild("SaveMenuPack")
+local Config = require(shared.Config)
+local Service = require(script.Parent.ProfileService)
+assert(not shared:FindFirstChild("Request"), "Install only one RemoteBridge")
+local request = Instance.new("RemoteFunction")
+request.Name = "Request"; request.Parent = shared
+local gates = {}
+request.OnServerInvoke = function(player, action, name, value)
+    local gate = gates[player]
+    if not gate then gate = {nextRequest = 0, nextSave = 0, nextLoad = 0}; gates[player] = gate end
+    local now = os.clock()
+    if type(action) ~= "string" or #action &gt; 20 or now &lt; gate.nextRequest then
+        local result = Service.Snapshot(player); result.Message = "RATE_LIMIT"; return result
+    end
+    gate.nextRequest = now + 0.2
+    if action == "Status" then return Service.Snapshot(player) end
+    if gate.busy then local result = Service.Snapshot(player); result.Message = "BUSY"; return result end
+    gate.busy = true
+    local message
+    local ok = pcall(function()
+        if action == "Play" then
+            if not Service.Start(player) then message = "NOT_READY" end
+        elseif action == "RetryLoad" then
+            if now &lt; gate.nextLoad then message = "RATE_LIMIT"; return end
+            gate.nextLoad = now + 8
+            Service.Load(player)
+        elseif action == "Save" then
+            if now &lt; gate.nextSave then message = "SAVE_COOLDOWN"; return end
+            gate.nextSave = now + Config.MANUAL_SAVE_COOLDOWN
+            if not Service.Save(player, false, os.clock() + 15) then message = "SAVE_FAILED" end
+        elseif action == "Setting" then
+            if type(name) ~= "string" or #name &gt; 30 or not Service.SetSetting(player, name, value) then message = "INVALID_SETTING" end
+        else message = "UNKNOWN_ACTION" end
+    end)
+    gate.busy = false
+    if not ok then message = "SERVER_ERROR"; warn("SaveMenuPack request failed") end
+    local result = Service.Snapshot(player)
+    result.Message = message
+    return result
+end
+Players.PlayerRemoving:Connect(function(player) gates[player] = nil end)
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="ModuleScript" referent="RBX26">
+        <Properties>
+          <string name="Name">SaveRepository</string>
+          <ProtectedString name="Source">-- Server ModuleScript. Atomic lease + idempotent saves. CC0-1.0 | timura032
+local Schema = require(script.Parent.Schema)
+local Repository = {}
+Repository.__index = Repository
+-- Dependencies are injected so the same logic can be tested without real DataStores.
+function Repository.new(store, config, clock, pause, guid)
+    return setmetatable({store = store, config = config, clock = clock, pause = pause, guid = guid}, Repository)
+end
+function Repository:update(key, transform, deadline)
+    for attempt = 1, self.config.RETRY_COUNT do
+        if deadline and os.clock() &gt;= deadline then return nil, "DEADLINE" end
+        local reason
+        local ok, record = pcall(function()
+            return self.store:UpdateAsync(key, function(current)
+                -- Roblox may invoke this callback multiple times. No yields or side effects here.
+                local nextRecord, rejected = transform(current)
+                reason = rejected
+                return nextRecord
+            end)
+        end)
+        if ok then
+            if record == nil then return nil, reason or "CANCELLED" end
+            return record
+        end
+        if attempt &lt; self.config.RETRY_COUNT then
+            local delay = math.min(2 ^ (attempt - 1), 4)
+            if deadline and os.clock() + delay &gt;= deadline then return nil, "DEADLINE" end
+            self.pause(delay)
+        end
+    end
+    return nil, "DATASTORE_UNAVAILABLE"
+end
+function Repository:acquire(key, token, deadline)
+    return self:update(key, function(current)
+        local data, invalid = Schema.decode(current)
+        if not data then return nil, invalid end
+        local now = self.clock()
+        local lock = current and current.Session
+        if lock and lock.Id ~= token and lock.Expires &gt; now then return nil, "SESSION_LOCKED" end
+        return {
+            SchemaVersion = Schema.VERSION,
+            Revision = current and current.Revision or 0,
+            Data = data,
+            Session = {Id = token, Expires = now + self.config.LEASE_SECONDS},
+            WriteId = current and current.WriteId or nil,
+        }
+    end, deadline)
+end
+function Repository:save(key, token, data, release, deadline)
+    local operation = self.guid() -- One ID across all retries of this logical write.
+    local frozen = Schema.copy(data)
+    return self:update(key, function(current)
+        local decoded, invalid = Schema.decode(current)
+        if not decoded or current == nil then return nil, invalid or "SESSION_LOST" end
+        -- A write may have committed even if its network response failed.
+        if current.WriteId == operation then return current end
+        if not current.Session or current.Session.Id ~= token then return nil, "SESSION_LOST" end
+        return {
+            SchemaVersion = Schema.VERSION,
+            Revision = (current.Revision or 0) + 1,
+            Data = frozen,
+            Session = not release and {Id = token, Expires = self.clock() + self.config.LEASE_SECONDS} or nil,
+            WriteId = operation,
+        }
+    end, deadline)
+end
+return Repository
+</ProtectedString>
+        </Properties>
+      </Item>
+      <Item class="ModuleScript" referent="RBX27">
+        <Properties>
+          <string name="Name">Schema</string>
+          <ProtectedString name="Source">-- Server ModuleScript. CC0-1.0 | timura032
+local Schema = {}
+Schema.VERSION = 1
+local function finite(value)
+    return type(value) == "number" and value == value and value &gt; -math.huge and value &lt; math.huge
+end
+local function integer(value, default, maximum)
+    if not finite(value) then return default end
+    return math.max(0, math.min(maximum, math.floor(value)))
+end
+function Schema.defaults()
+    return {Checkpoint = 0, Coins = 0, PlaySeconds = 0, Settings = {MusicVolume = 0.5, ReducedMotion = false}}
+end
+function Schema.copy(data)
+    local settings = type(data.Settings) == "table" and data.Settings or {}
+    return {
+        Checkpoint = integer(data.Checkpoint, 0, 100000),
+        Coins = integer(data.Coins, 0, 1000000000),
+        PlaySeconds = integer(data.PlaySeconds, 0, 10000000000),
+        Settings = {
+            MusicVolume = finite(settings.MusicVolume) and math.max(0, math.min(1, settings.MusicVolume)) or 0.5,
+            ReducedMotion = settings.ReducedMotion == true,
+        },
+    }
+end
+function Schema.decode(record)
+    if record == nil then return Schema.defaults() end
+    if type(record) ~= "table" or record.SchemaVersion ~= Schema.VERSION or type(record.Data) ~= "table" then
+        return nil, "UNSUPPORTED_DATA" -- Never replace unreadable/newer records with defaults.
+    end
+    if record.Session ~= nil then
+        if type(record.Session) ~= "table" or type(record.Session.Id) ~= "string" or not finite(record.Session.Expires) then
+            return nil, "INVALID_SESSION"
+        end
+    end
+    if record.Revision ~= nil and (not finite(record.Revision) or record.Revision &lt; 0) then return nil, "INVALID_REVISION" end
+    return Schema.copy(record.Data)
+end
+return Schema
+</ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="StarterPlayer" referent="RBX28">
+    <Properties>
+      <string name="Name">StarterPlayer</string>
+    </Properties>
+    <Item class="StarterPlayerScripts" referent="RBX29">
+      <Properties>
+        <string name="Name">StarterPlayerScripts</string>
+      </Properties>
+      <Item class="LocalScript" referent="RBX30">
+        <Properties>
+          <string name="Name">ApplySettings</string>
+          <ProtectedString name="Source">-- Put your own permitted music Sounds in SoundGroup SaveMenuMusic. No assets included.
+-- CC0-1.0 | timura032
+local SoundService = game:GetService("SoundService")
+local player = game:GetService("Players").LocalPlayer
+local changed = player:WaitForChild("PlayerGui"):WaitForChild("SaveMenuSnapshot", 30)
+if not changed then warn("SaveMenuPack: MainMenu client missing"); return end
+local group = SoundService:FindFirstChild("SaveMenuMusic")
+if not group then group = Instance.new("SoundGroup"); group.Name = "SaveMenuMusic"; group.Parent = SoundService end
+assert(group:IsA("SoundGroup"), "SoundService.SaveMenuMusic must be SoundGroup")
+changed.Event:Connect(function(snapshot)
+    if snapshot.Data then
+        group.Volume = snapshot.Data.Settings.MusicVolume
+        player:SetAttribute("SaveMenuReducedMotion", snapshot.Data.Settings.ReducedMotion)
+    end
+end)
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="LocalScript" referent="RBX31">
+        <Properties>
+          <string name="Name">MainMenu</string>
+          <ProtectedString name="Source">-- LocalScript -&gt; StarterPlayer.StarterPlayerScripts. CC0-1.0 | timura032
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local shared = ReplicatedStorage:WaitForChild("SaveMenuPack")
+local Config = require(shared:WaitForChild("Config"))
+local UI = require(shared:WaitForChild("UIFactory"))
+local request = shared:WaitForChild("Request", 20)
+local lang = UI.language(player)
+local function t(ru, en) return UI.text(lang, ru, en) end
+local old = playerGui:FindFirstChild("SaveMenuUI")
+if old then old:Destroy() end
+local open = playerGui:FindFirstChild("SaveMenuOpen") or UI.new("BindableEvent", playerGui, {Name = "SaveMenuOpen"})
+local changed = playerGui:FindFirstChild("SaveMenuSnapshot") or UI.new("BindableEvent", playerGui, {Name = "SaveMenuSnapshot"})
+local gui = UI.new("ScreenGui", playerGui, {Name = "SaveMenuUI", ResetOnSpawn = false, DisplayOrder = 50, ZIndexBehavior = Enum.ZIndexBehavior.Sibling})
+local shade = UI.new("TextButton", gui, {Name = "Shade", Size = UDim2.fromScale(1, 1), Text = "", AutoButtonColor = false, Modal = true, BackgroundColor3 = Color3.new(0, 0, 0), BackgroundTransparency = 0.2})
+local window = UI.new("Frame", shade, {AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.92, 0.9), BackgroundColor3 = Color3.fromRGB(22, 25, 33)})
+UI.round(window)
+UI.new("UISizeConstraint", window, {MaxSize = Vector2.new(780, 640)})
+UI.new("UIPadding", window, {PaddingLeft = UDim.new(0, 18), PaddingRight = UDim.new(0, 18), PaddingTop = UDim.new(0, 14), PaddingBottom = UDim.new(0, 14)})
+local title = UI.label(window, Config.TITLE, 42)
+title.TextSize = 25; title.TextColor3 = UI.Accent
+local prototype = UI.label(window, t("СЫРОЙ ШАБЛОН · можно менять под свою игру", "RAW TEMPLATE · customize for your own game"), 30)
+prototype.Position = UDim2.fromOffset(0, 44); prototype.TextSize = 13
+local tabs = UI.new("Frame", window, {Position = UDim2.fromOffset(0, 80), Size = UDim2.new(1, 0, 0, 42), BackgroundTransparency = 1})
+local pages, buttons = {}, {}
+local function show(name)
+    for key, page in pairs(pages) do page.Visible = key == name end
+    for key, button in pairs(buttons) do button.BackgroundColor3 = key == name and Color3.fromRGB(89, 75, 30) or Color3.fromRGB(44, 49, 62) end
+end
+for index, info in ipairs({{"Play", t("Игра", "Play")}, {"Settings", t("Настройки", "Settings")}, {"Help", t("Помощь", "Help")}}) do
+    local key = info[1]
+    local button = UI.button(tabs, info[2], function() show(key) end)
+    button.Size = UDim2.new(1 / 3, -6, 1, 0); button.Position = UDim2.new((index - 1) / 3, 3, 0, 0)
+    buttons[key] = button
+    local page = UI.new("ScrollingFrame", window, {Name = key, Position = UDim2.fromOffset(0, 134), Size = UDim2.new(1, 0, 1, -138), BackgroundTransparency = 1, BorderSizePixel = 0, ScrollBarThickness = 4, CanvasSize = UDim2.new(), AutomaticCanvasSize = Enum.AutomaticSize.Y})
+    UI.new("UIListLayout", page, {Padding = UDim.new(0, 10), SortOrder = Enum.SortOrder.LayoutOrder})
+    UI.new("UIPadding", page, {PaddingRight = UDim.new(0, 8), PaddingBottom = UDim.new(0, 12)})
+    pages[key] = page
+end
+local state, busy, render = {Status = "LOADING"}, false, nil
+local function setVisible(visible)
+    gui.Enabled = visible
+    player:SetAttribute("SaveMenuOpen", visible)
+end
+local function ask(action, name, value)
+    if busy then return end
+    if not request then state.Message = "NO_SERVER"; if render then render() end; return end
+    busy = true
+    local ok, result = pcall(function() return request:InvokeServer(action, name, value) end)
+    busy = false
+    if ok and type(result) == "table" then
+        state = result; changed:Fire(result)
+    else state.Message = "CONNECTION_ERROR" end
+    if render then render() end
+end
+local progress = UI.label(pages.Play, "", 72); progress.LayoutOrder = 1
+local saveState = UI.label(pages.Play, "", 72); saveState.LayoutOrder = 2
+local preview = UI.label(pages.Play, "", 58); preview.LayoutOrder = 3; preview.TextColor3 = UI.Accent
+local play = UI.button(pages.Play, t("Загрузка…", "Loading…"), function()
+    if state.Started then setVisible(false); return end
+    ask("Play")
+    if state.Started then setVisible(false) end
+end); play.LayoutOrder = 4
+local save = UI.button(pages.Play, t("Сохранить", "Save now"), function() ask("Save") end); save.LayoutOrder = 5
+local retry = UI.button(pages.Play, t("Повторить загрузку", "Retry loading"), function() ask("RetryLoad") end); retry.LayoutOrder = 6
+local close = UI.button(pages.Play, t("Вернуться в игру", "Back to game"), function() if state.Started then setVisible(false) end end); close.LayoutOrder = 7
+local volume = UI.button(pages.Settings, "", function()
+    if state.Data then
+        local nextVolume = (math.floor(state.Data.Settings.MusicVolume * 4 + 0.5) + 1) % 5 / 4
+        ask("Setting", "MusicVolume", nextVolume)
+    end
+end); volume.LayoutOrder = 1
+local motion = UI.button(pages.Settings, "", function()
+    if state.Data then ask("Setting", "ReducedMotion", not state.Data.Settings.ReducedMotion) end
+end); motion.LayoutOrder = 2
+local settingsHelp = UI.label(pages.Settings, t("Настройки входят в сохранение. Громкость влияет на SoundGroup SaveMenuMusic. Уменьшение движения отключает покачивание камеры меню.", "Settings are saved. Volume affects the SaveMenuMusic SoundGroup. Reduced motion disables menu camera drift."), 96); settingsHelp.LayoutOrder = 3
+local helpText = UI.label(pages.Help, t("Это сырой стартовый шаблон. Можно бесплатно менять меню, скрипты и оформление под свою игру.\n\nСохраняются чекпоинт, монеты, игровое время и настройки. Возврат в меню не ставит серверную игру на паузу.", "This is a raw starter template. Customize the menu, scripts and appearance for free.\n\nCheckpoint, coins, playtime and settings are saved. Reopening the menu does not pause the server."), 170); helpText.LayoutOrder = 1
+local support = UI.label(pages.Help, t("Помощь по шаблону бесплатная. Оставь комментарий в теме отзывов на GitHub:", "Help with this template is free. Leave a comment in the GitHub feedback thread:"), 64); support.LayoutOrder = 2
+local feedback = UI.label(pages.Help, Config.FEEDBACK_URL, 64); feedback.TextSize = 14; feedback.LayoutOrder = 3
+local author = UI.label(pages.Help, "timura032 · CC0-1.0 · Telegram " .. Config.TELEGRAM, 40); author.TextSize = 14; author.LayoutOrder = 4
+local errors = {
+    LOADING = t("Загружаю прогресс…", "Loading progress…"), READY = t("Прогресс загружен", "Progress loaded"),
+    PLAYING = t("Игра началась", "Game started"), SAVING = t("Сохраняю…", "Saving…"),
+    SAVE_FAILED = t("Не удалось сохранить. Попробуй снова; не выходи сразу.", "Save failed. Try again; avoid leaving immediately."),
+    SESSION_LOCKED = t("Сохранение ещё занято другим сервером. Попробуй позже.", "Another server still holds this save. Retry later."),
+    DATASTORE_UNAVAILABLE = t("Хранилище недоступно. Прогресс не загружен.", "Storage unavailable. Progress was not loaded."),
+    UNSUPPORTED_DATA = t("Формат сохранения не поддерживается. Данные не перезаписаны.", "Unsupported save format. Data was not overwritten."),
+    SAVE_COOLDOWN = string.format(t("Между ручными сохранениями нужно подождать %d секунд.", "Wait %d seconds between manual saves."), Config.MANUAL_SAVE_COOLDOWN),
+    RATE_LIMIT = t("Подожди немного и попробуй снова.", "Please wait briefly and try again."),
+    BUSY = t("Запрос выполняется…", "Request in progress…"),
+    CONNECTION_ERROR = t("Ошибка связи. Повторная попытка выполняется автоматически.", "Connection error. Retrying automatically."),
+    NO_SERVER = t("Сервер меню не найден. Проверь установку пака.", "Menu server missing. Check pack installation."),
+}
+render = function()
+    local data = state.Data
+    progress.Text = data and string.format(t("Чекпоинт: %d   Монеты: %d\nВ игре: %d мин.", "Checkpoint: %d   Coins: %d\nPlaytime: %d min."), data.Checkpoint, data.Coins, math.floor(data.PlaySeconds / 60)) or t("Прогресс пока недоступен", "Progress not yet available")
+    local statusText = errors[state.Message] or errors[state.Status] or t("Не удалось загрузить прогресс. Повтори загрузку.", "Progress could not be loaded. Retry loading.")
+    if state.LastSavedAt then statusText = statusText .. "\n" .. t("Последнее сохранение: ", "Last save: ") .. os.date("%H:%M:%S", state.LastSavedAt) end
+    saveState.Text = statusText
+    preview.Text = state.MemoryMode == true and t("ДЕМО В ПАМЯТИ: после остановки Studio прогресс исчезнет.", "MEMORY DEMO: progress disappears after stopping Studio.") or state.MemoryMode == false and t("Постоянное сохранение · автосохранение включено", "Persistent storage · autosave enabled") or t("Определяю режим сохранения…", "Checking storage mode…")
+    play.Text = state.Started and t("Вернуться в игру", "Back to game") or data and (state.HasProgress and t("Продолжить", "Continue") or t("Играть", "Play")) or t("Ожидаю загрузку…", "Waiting for save…")
+    play.Active = data ~= nil; play.AutoButtonColor = data ~= nil
+    save.Visible = data ~= nil; retry.Visible = not data and state.Status ~= "LOADING"; close.Visible = state.Started == true
+    volume.Text = t("Громкость музыки: ", "Music volume: ") .. tostring(math.floor(((data and data.Settings.MusicVolume) or 0.5) * 100)) .. "%"
+    motion.Text = t("Меньше движения: ", "Reduced motion: ") .. ((data and data.Settings.ReducedMotion) and t("вкл", "on") or t("выкл", "off"))
+end
+open.Event:Connect(function() setVisible(true); ask("Status") end)
+setVisible(true); show("Play"); render()
+task.spawn(function()
+    while gui.Parent do
+        ask("Status")
+        task.wait(gui.Enabled and 1 or 4)
+    end
+end)
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="LocalScript" referent="RBX32">
+        <Properties>
+          <string name="Name">MenuCamera</string>
+          <ProtectedString name="Source">-- Optional menu camera; delete this LocalScript if you use another camera controller.
+-- CC0-1.0 | timura032
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local player = Players.LocalPlayer
+local demo = workspace:WaitForChild("SaveMenuDemo", 15)
+local point = demo and demo:WaitForChild("MenuCamera", 15)
+if not point or not point:IsA("BasePart") then return end
+local saved, elapsed
+local function restore()
+    if not saved then return end
+    local camera = saved.camera
+    camera.CameraType = saved.kind
+    camera.CameraSubject = player.Character and player.Character:FindFirstChildOfClass("Humanoid") or saved.subject
+    camera.CFrame = saved.frame
+    saved = nil
+end
+local connection = RunService.RenderStepped:Connect(function(dt)
+    local camera = workspace.CurrentCamera
+    if not player:GetAttribute("SaveMenuOpen") or not point.Parent or not camera then restore(); return end
+    if saved and saved.camera ~= camera then restore() end
+    if not saved then
+        saved = {camera = camera, kind = camera.CameraType, subject = camera.CameraSubject, frame = camera.CFrame}
+        elapsed = 0; camera.CameraType = Enum.CameraType.Scriptable
+    end
+    elapsed = elapsed + dt
+    local offset = player:GetAttribute("SaveMenuReducedMotion") and Vector3.zero or Vector3.new(math.sin(elapsed * 0.2) * 0.4, 0, 0)
+    camera.CFrame = point.CFrame + offset
+end)
+script.Destroying:Connect(function() connection:Disconnect(); restore() end)
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="LocalScript" referent="RBX33">
+        <Properties>
+          <string name="Name">ProgressHUD</string>
+          <ProtectedString name="Source">-- LocalScript. Mobile-friendly menu button and live checkpoint/coin counters. CC0-1.0
+local player = game:GetService("Players").LocalPlayer
+local pg = player:WaitForChild("PlayerGui")
+local shared = game:GetService("ReplicatedStorage"):WaitForChild("SaveMenuPack")
+local UI = require(shared:WaitForChild("UIFactory"))
+local old = pg:FindFirstChild("SaveMenuHUD"); if old then old:Destroy() end
+local gui = UI.new("ScreenGui", pg, {Name = "SaveMenuHUD", ResetOnSpawn = false, DisplayOrder = 20})
+local bar = UI.new("Frame", gui, {Position = UDim2.new(0, 12, 0, 12), Size = UDim2.new(1, -24, 0, 48), BackgroundColor3 = Color3.fromRGB(22, 25, 33)})
+UI.round(bar); UI.new("UISizeConstraint", bar, {MaxSize = Vector2.new(480, 48)})
+local button = UI.button(bar, UI.text(UI.language(player), "Меню", "Menu"), function()
+    local open = pg:FindFirstChild("SaveMenuOpen")
+    if open then open:Fire() end
+end)
+button.Size = UDim2.fromOffset(92, 48)
+local label = UI.label(bar, "", 48); label.Position = UDim2.fromOffset(104, 0); label.Size = UDim2.new(1, -110, 1, 0); label.TextSize = 14
+local function update()
+    local playing = player:GetAttribute("SaveMenuStarted") == true
+    gui.Enabled = playing
+    local stage, coins = player:GetAttribute("SaveMenuCheckpoint") or 0, player:GetAttribute("SaveMenuCoins") or 0
+    label.Text = string.format(UI.text(UI.language(player), "Этап %d · Монеты %d", "Stage %d · Coins %d"), stage, coins)
+end
+for _, attribute in ipairs({"SaveMenuStarted", "SaveMenuCheckpoint", "SaveMenuCoins"}) do player:GetAttributeChangedSignal(attribute):Connect(update) end
+update()
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="Lighting" referent="RBX34">
+    <Properties>
+      <string name="Name">Lighting</string>
+      <float name="ClockTime">15</float>
+      <float name="Brightness">2</float>
+    </Properties>
+  </Item>
+  <Item class="SoundService" referent="RBX35">
+    <Properties>
+      <string name="Name">SoundService</string>
+    </Properties>
+    <Item class="SoundGroup" referent="RBX36">
+      <Properties>
+        <string name="Name">SaveMenuMusic</string>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>

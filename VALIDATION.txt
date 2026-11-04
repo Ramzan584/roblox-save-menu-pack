@@ -1,0 +1,34 @@
+Save + Main Menu Pack v0.1.0 — 2026-11-04
+
+PASS: 14 source files parse with Lua 5.4 using Lua-compatible Luau syntax.
+PASS: 104 mocked schema/repository/profile/remote behavior assertions.
+PASS: Script/ModuleScript/LocalScript classes and source parity in both XML files.
+
+Cases include: independent defaults, NaN/type/range validation, future-schema
+rejection, failed loads never yielding playable defaults, two-owner session
+rejection, stale lease reclaim, callback contention recheck, old-server write
+rejection, retry bounds/deadlines, ambiguous post-commit response retries,
+idempotent release, player rejoin, copied client snapshots, server-only rewards,
+checkpoint order, settings allowlist, mutation during in-flight save, leave
+during loading, session loss, temporary save outage/recovery, remote rate limits,
+manual-save cooldown and shutdown release.
+
+Reproduce: python verify_pack.py
+Requires Python 3 and Linux liblua5.4.so.0.
+
+NOT VERIFIED: actual Roblox Studio/client play, real DataStore API calls,
+real API throttling/retry timing, shutdown deadlines under yielding cloud calls,
+replication, touch detection, camera integration, audio asset access,
+UI rendering on desktop/mobile, R6/R15 behavior or StreamingEnabled.
+The Studio preview uses memory by default; it does not persist between tests.
+
+Manual acceptance before adapting into a live game:
+- Verify menu start gating, tabs and reopen behavior on phone and desktop.
+- Verify unanchoring, ordered checkpoints, coin debounce and respawn placement.
+- Publish a separate test experience; save, leave and rejoin with two accounts.
+- Test save/load failures, rapid rejoin/session locks and server shutdown.
+- Test camera restoration and integration with your existing scripts.
+- Check both RU/EN labels, settings, SoundGroup volume and reduced motion.
+
+This is a raw template. Cloud outages/server crashes can still cause unsaved
+progress; the code does not promise lossless persistence.
