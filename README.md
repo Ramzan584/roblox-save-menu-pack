@@ -1,5 +1,9 @@
 # Roblox Save + Main Menu Pack · v0.1.0
 
+**Инструмент разработчика / Developer tool:** [Studio XML Sync](tools/README.md)
+— проверка и перенос изменений Luau в модель и демоместо без внешних библиотек.
+См. [журнал изменений](CHANGELOG.md) и [результаты проверок](tools/VALIDATION.md).
+
 **СЫРОЙ ШАБЛОН / RAW TEMPLATE. Бесплатный пак + бесплатная помощь по шаблону.**
 
 **DataStore saves · Play / Continue menu · Settings · Checkpoints · Coins · RU/EN**
