@@ -1,5 +1,8 @@
 # Roblox Save + Main Menu Pack · v0.1.0
 
+**Окружение / Environment:** [Save Lobby Kit](assets/save-lobby/README.md)
+— шесть оригинальных моделей мебели, готовый импорт и Python-генератор.
+
 **Инструмент разработчика / Developer tool:** [Studio XML Sync](tools/README.md)
 — проверка и перенос изменений Luau в модель и демоместо без внешних библиотек.
 См. [журнал изменений](CHANGELOG.md) и [результаты проверок](tools/VALIDATION.md).

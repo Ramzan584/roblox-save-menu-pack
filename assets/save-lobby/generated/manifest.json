@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "scale": 1,
+  "palette": "forest",
+  "units": "studs",
+  "models": {
+    "BenchShort": 4,
+    "BenchLong": 4,
+    "PlanterSquare": 4,
+    "PlanterWide": 4,
+    "Gateway": 6,
+    "Kiosk": 6
+  },
+  "parts": 28,
+  "sha256": "fb9ec86903ded2d44b365d3189ea8d6db92b596db8dc07c54566177b2284637e"
+}
