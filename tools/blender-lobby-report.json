@@ -1,0 +1,78 @@
+{
+  "blender": "5.1.1",
+  "meters_per_stud": 0.28,
+  "models": [
+    {
+      "name": "BenchShort",
+      "parts": 4,
+      "bounds_m": [
+        1.6799999475479126,
+        0.5600000321865082,
+        1.0640000447037572
+      ],
+      "file": "BenchShort.fbx",
+      "reimport_verified": true
+    },
+    {
+      "name": "BenchLong",
+      "parts": 4,
+      "bounds_m": [
+        2.799999952316284,
+        0.5600000321865082,
+        1.0640000447037572
+      ],
+      "file": "BenchLong.fbx",
+      "reimport_verified": true
+    },
+    {
+      "name": "PlanterSquare",
+      "parts": 4,
+      "bounds_m": [
+        0.8399999737739563,
+        0.8400000333786011,
+        0.8680000989442576
+      ],
+      "file": "PlanterSquare.fbx",
+      "reimport_verified": true
+    },
+    {
+      "name": "PlanterWide",
+      "parts": 4,
+      "bounds_m": [
+        1.6799999475479126,
+        0.8400000333786011,
+        0.8680000989442576
+      ],
+      "file": "PlanterWide.fbx",
+      "reimport_verified": true
+    },
+    {
+      "name": "Gateway",
+      "parts": 6,
+      "bounds_m": [
+        3.0799999237060547,
+        0.699999988079071,
+        2.520000276367327
+      ],
+      "file": "Gateway.fbx",
+      "reimport_verified": true
+    },
+    {
+      "name": "Kiosk",
+      "parts": 6,
+      "bounds_m": [
+        0.8399999737739563,
+        0.699999988079071,
+        1.3440000426277123
+      ],
+      "file": "Kiosk.fbx",
+      "reimport_verified": true
+    }
+  ],
+  "export": {
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "global_scale": 1,
+    "apply_unit_scale": true
+  }
+}

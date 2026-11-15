@@ -1,5 +1,8 @@
 # Roblox Save + Main Menu Pack · v0.1.0
 
+**Blender:** [Save Lobby Blender Bridge](tools/BLENDER_LOBBY.md) — перенос
+мебели в Blender, шесть FBX, автоматическая проверка масштаба и превью.
+
 **Окружение / Environment:** [Save Lobby Kit](assets/save-lobby/README.md)
 — шесть оригинальных моделей мебели, готовый импорт и Python-генератор.
 
